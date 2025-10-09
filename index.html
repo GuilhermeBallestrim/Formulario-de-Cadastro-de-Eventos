@@ -38,7 +38,7 @@
                     <p class="corpos">Link do evento</p>
                     <p class="corposwhite"> (comece com https://) </p>
                 </div>
-                <input type="text" class="inputs">
+                <input type="url" class="inputs">
             </label>
 
             <label>
@@ -46,9 +46,79 @@
                     <p class="corpos">Whatsapp para contato</p>
                     <p class="corposwhite"> (somente números) </p>
                 </div>
-                <input type="text" class="inputs">
+                <input type="number" class="inputs">
+            </label>
+
+            <label>
+                <div class="linha-textos">
+                    <p class="corpos">Informações Extras</p>
+                </div>
+                <textarea class="textarea" cols="50" rows="50"></textarea>
+            </label>
+
+            <label>
+                <div class="linha-textos">
+                    <p class="corpos">Categoria</p>
+                </div>
+                <select class="select">
+                    <option class="option" value="Festa">Festa</option>
+                    <option class="option" value="Palestra">Palestra</option>
+                    <option class="option" value="Evento Interno">Evento Interno</option>
+                    <option class="option" value="Evento Externo">Evento Externo</option>
+                </select>
             </label>
         </form>
+
+        <h1 class="Titulos">
+            Privacidade
+            <hr>
+        </h1>
+        <form>
+            <label>
+                <div class="linha-textos">
+                    <p class="corpos">E-mail do administrador</p>
+                    <p class="corposwhite"> (digite um email válido) </p>
+                </div>
+                <input type="email" class="inputs">
+            </label>
+
+            <label>
+                <div class="linha-textos">
+                    <p class="corpos">Senha de acesso para os participantes</p>
+                    <p class="corposwhite"> (mínimo 8 caracteres) </p>
+                </div>
+                <input type="password" class="inputs">
+            </label>
+
+            <label>
+                <div class="checkbox">
+                    <input type="checkbox"> Evento Público
+                </div>
+            </label>
+        </form>
+        <h1 class="tit-esp">
+            Dia e Hora
+            <hr>
+        </h1>
+        <form>
+            <label>
+                <div class="dia-hora">
+                    <div class="data">
+                        <p>Data</p>
+                        <input type="date" id="data" name="data">
+                    </div>
+                    <div class="campo">
+                        <p>Das</p>
+                        <input type="time" id="das" name="das">
+                    </div>
+                    <div class="campo">
+                        <p>Até</p>
+                        <input type="time">
+                    </div>
+                </div>
+            </label>
+        </form>
+
 
 
 

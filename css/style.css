@@ -40,7 +40,7 @@ body {
     margin-left: 351px;
     margin-top: -86px;
     width: 736px;
-    height: 1430px;
+    height: 1830px;
     padding: 1px;
     color: white;
     border-top-left-radius: 8px;
@@ -63,7 +63,7 @@ body {
 .Titulos {
     color: #32264D;
     border: 1px;
-    margin-top: 70px;
+    margin-top: 50px;
     margin-left: 62px;
     margin-right: 62px;
     font-family: sans-serif;
@@ -80,7 +80,7 @@ body {
     margin-right: 62px;
     font-family: sans-serif;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 400;
     display: block;
     margin-right: 0px;
 }
@@ -93,7 +93,7 @@ body {
     margin-right: 62px;
     font-family: sans-serif;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 400;
     display: block;
 }
 
@@ -107,16 +107,111 @@ body {
     margin-left: 62px;
     margin-right: 62px;
     width: 604px;
-    height: 50px;
+    height: 35px;
     border-radius: 5px;
     border-color: #e1e1e1;
-    border-style:solid;
+    border-style: solid;
     border-width: 1px;
+    padding: 15px;
 }
 
-.inputs:active {
-    border-color: red;
+.textarea {
+    margin-left: 62px;
+    margin-right: 62px;
+    width: 604px;
+    height: 168px;
+    border-radius: 5px;
+    border-color: #e1e1e1;
+    border-style: solid;
+    border-width: 1px;
+    padding: 15px;
 }
+
+.select {
+    margin-left: 62px;
+    margin-right: 62px;
+    width: 604px;
+    height: 56px;
+    border-radius: 5px;
+    border-color: #e1e1e1;
+    border-style: solid;
+    border-width: 1px;
+    padding: 15px;
+}
+
+.option {
+    color: #4E4958
+}
+
+.checkbox {
+    margin-left: 62px;
+    margin-right: 62px;
+    margin-top: 15px;
+    width: 604px;
+    height: 56px;
+    padding: 15px;
+    color: #4E4958;
+    font-family: sans-serif;
+    font-size: small;
+
+}
+
+.tit-esp {
+    color: #32264D;
+    border: 1px;
+    margin-left: 62px;
+    margin-right: 62px;
+    font-family: sans-serif;
+    font-size: medium;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+
+
+input:focus {
+    border-color: #ff0000;
+    border-width: 3px;
+}
+
+.dia-hora {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding: 20px;
+    border-radius: 6px;
+
+}
+
+.campo {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 5px;
+    color: #121214;
+}
+
+.data {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 5px;
+    color: #121214;
+}
+
+.campo input {
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    border: 1px solid #d0d0d0;
+    border-radius: 6px;
+    margin-top: 5px;
+}
+
 
 
 hr {
