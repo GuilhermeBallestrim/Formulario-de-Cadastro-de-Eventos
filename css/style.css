@@ -40,7 +40,7 @@ body {
     margin-left: 351px;
     margin-top: -86px;
     width: 736px;
-    height: 1830px;
+    height: 1700px;
     padding: 1px;
     color: white;
     border-top-left-radius: 8px;
@@ -179,23 +179,14 @@ input:focus {
     display: flex;
     align-items: flex-start;
     gap: 30px;
-    margin-left: 80px;
+    margin-top: 40px;
+    margin-left: 62px;
     margin-right: 80px;
     padding: 20px;
     border-radius: 6px;
-
 }
 
 .campo {
-    font-family: 'Poppins', sans-serif;
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    padding: 5px;
-    color: #121214;
-}
-
-.data {
     font-family: 'Poppins', sans-serif;
     display: flex;
     flex-direction: column;
@@ -212,7 +203,21 @@ input:focus {
     margin-top: 5px;
 }
 
+.salvar {
+    align-items: center;
+    margin-top: 35px;
+    background-color: #00c046;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    border: #00c046;
+    border-radius: 6px;
+    width: 500px;
+    height: 50px;
+    font-size: larger;
+    margin-left: 120px;
+    margin-bottom: 60px;
 
+}
 
 hr {
     color: #E6E6F0;
